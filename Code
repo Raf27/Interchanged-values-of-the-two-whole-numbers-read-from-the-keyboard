@@ -1,0 +1,29 @@
+#include <iostream>
+using namespace std;
+
+int main()
+{
+    int a,b;
+
+    //read
+
+    cout<<"put number a: "; cin>>a;
+    cout<<"put number b: "; cin>>b;
+
+    // show without aux
+
+    cout<<"number a is: "<<b<<endl;
+    cout<<"number b is: "<<a<<endl;
+
+    //show with aux
+
+    int aux;
+    aux = a;
+    a = b;
+    b = aux;
+
+    cout<<"number a is: "<<a<<endl;
+    cout<<"number b is: "<<b<<endl;
+
+    return 0;
+}
